@@ -9,15 +9,38 @@
     box-sizing: border-box;
 }
 
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
 body {
     background-color: var(--neutral-off-white);
+}
+
+html {
+    font-family: "Inter", sans-serif;
 }
 
 main {
     max-width: 1440px;
     margin: 0 auto;
+    padding: 0 1rem;
 }
 
 img {
     width: 100%;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
 }

@@ -18,30 +18,136 @@
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
 body {
   background-color: var(--neutral-off-white);
+}
+
+html {
+  font-family: "Inter", sans-serif;
 }
 
 main {
   max-width: 1440px;
   margin: 0 auto;
+  padding: 0 1rem;
 }
 
 img {
   width: 100%;
 }
 
-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
 .attribution {
   font-size: 11px;
   text-align: center;
+  padding-top: 1rem;
 }
 
 .attribution a {
   color: hsl(228deg, 45%, 44%);
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem 0;
+}
+header .header_logo a img {
+  width: 2.8rem;
+}
+
+.showcase .showcase_content .showcase_informations {
+  padding: 1.17rem 0;
+}
+.showcase .showcase_content .showcase_informations h1 {
+  font-size: 2.674rem;
+  font-weight: 800;
+  color: var(--neutral-dar-blue);
+}
+.showcase .showcase_content .showcase_informations .showcase_informations__cta p {
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--neutral-dark-grayish-blue);
+  padding-top: 1rem;
+  letter-spacing: 0px;
+}
+.showcase .showcase_content .showcase_informations .showcase_informations__cta button {
+  border: none;
+  font-size: 0.82rem;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: var(--neutral-off-white);
+  background-color: var(--primary-red);
+  padding: 0.65rem 2rem;
+  font-family: "Inter", sans-serif;
+  margin-top: 1.5rem;
+}
+.showcase .showcase_sidebar {
+  background-color: var(--neutral-dar-blue);
+  margin: 1.5rem 0;
+  padding: 1.2rem;
+}
+.showcase .showcase_sidebar p {
+  color: var(--neutral--grayish-blue);
+  font-weight: 500;
+  font-size: 1rem;
+  letter-spacing: 0.2px;
+  padding-top: 0.7rem;
+  padding-bottom: 1.85rem;
+}
+.showcase .showcase_sidebar h2 {
+  color: var(--primary-orange);
+  font-size: 1.85rem;
+}
+.showcase .showcase_sidebar .showcase_items {
+  padding-top: 1.5rem;
+}
+.showcase .showcase_sidebar .showcase_items .showcase_item:not(:first-child) {
+  padding-top: 1.75rem;
+}
+.showcase .showcase_sidebar .showcase_items .showcase_item:not(:last-child) {
+  border-bottom: 0.132rem solid var(--neutral-dark-grayish-blue);
+}
+.showcase .showcase_sidebar .showcase_items .showcase_item h3 {
+  color: var(--neutral-off-white);
+}
+
+.categories {
+  display: flex;
+  flex-direction: column;
+}
+.categories .category {
+  display: flex;
+  gap: 1.2rem;
+  padding: 0.75rem 0;
+}
+.categories .category .category_image {
+  width: 4.6rem;
+}
+.categories .category .category_text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  flex: 1;
+}
+.categories .category .category_text h2 {
+  color: var(--neutral--grayish-blue);
+}
+.categories .category .category_text h3 {
+  color: var(--neutral-dar-blue);
+  font-weight: 800;
+}
+.categories .category .category_text p {
+  color: var(--neutral-dark-grayish-blue);
+  font-size: 1rem;
+  font-weight: 400;
 }/*# sourceMappingURL=style.css.map */
